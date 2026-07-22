@@ -28,23 +28,13 @@ YOLO11-RepGhost-imMSAM-imShapeIoU/
    └─ results.png
 ```
 
+````markdown
 ## Environment
 
-The experiments were conducted under the following environment:
-
-```text
-Python 3.11
-PyTorch 2.9.1+cu128
-CUDA 12.8
-Ultralytics 8.3.49
-GPU: NVIDIA GeForce RTX 3090
-```
-
-Install dependencies:
+Please install the required dependencies before running the code:
 
 ```bash
 pip install -r requirements.txt
-```
 
 ## Dataset
 
