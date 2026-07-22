@@ -1,0 +1,9 @@
+Validating runs/mei/new_shapeiou/repghost-immsam-shapeiou/weights/best.pt...
+Ultralytics 8.3.49 🚀 Python-3.11.0 torch-2.9.1+cu128 CUDA:0 (NVIDIA GeForce RTX 3090, 24253MiB)
+YOLO11-repghost-immsam summary: 583 layers, 2,092,848 parameters, 0 gradients
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 13/13 [00:09<00:00,  1.41it/s]
+                   all       1540      17397      0.923      0.941      0.939      0.826
+                  coal       1489       4385      0.843      0.835      0.855      0.709
+                gangue       1444       2656      0.931      0.931      0.951      0.842
+              backfill        129        470      0.929          1       0.96      0.884
+       marked backfill       1175       9886      0.991      0.998      0.991      0.869

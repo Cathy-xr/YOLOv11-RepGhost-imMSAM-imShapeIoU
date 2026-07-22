@@ -1,0 +1,27 @@
+# path: /home/data/lt/project/learn_pro/datasets/bird # dataset root dir
+# train: train # train images (relative to 'path') 118287 images
+# val: val # val images (relative to 'path') 5000 images
+# test: val # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# names:
+#   0: bird
+
+
+
+# path: /home/data/lt/project/learn_pro/datasets/bird # dataset root dir
+train: /home/data/lt/project/learn_pro/datasets/normal_datasets/train # train images (relative to 'path') 118287 images
+val: /home/data/lt/project/learn_pro/datasets/normal_datasets/val # val images (relative to 'path') 5000 images
+test: /home/data/lt/project/learn_pro/datasets/normal_datasets/test # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+names:
+  0: 'hand-raising'
+  1: 'reading'
+  2: 'writing'
+  3: 'sleep'
+  4: 'using phone'
+  5: 'bowing the head'
+  6: 'leaning over the table'
+
+
+
+

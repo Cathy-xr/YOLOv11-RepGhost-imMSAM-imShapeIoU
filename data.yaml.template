@@ -1,0 +1,12 @@
+path: /path/to/dataset
+
+train: images/train
+val: images/val
+test: images/test
+
+nc: 4
+names:
+  0: coal
+  1: gangue
+  2: backfill
+  3: marked backfill
