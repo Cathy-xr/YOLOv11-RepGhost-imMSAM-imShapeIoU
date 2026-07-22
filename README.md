@@ -1,11 +1,11 @@
-# YOLO11-RepGhost-imMSAM-imShapeIoU
+# YOLOv11-RepGhost-imMSAM-imShapeIoU
 
 This repository provides the source code, model configuration file, trained weights, validation scripts, and result logs used in this study.
 
 ## Repository Structure
 
 ```text
-YOLO11-RepGhost-imMSAM-imShapeIoU/
+YOLOv11-RepGhost-imMSAM-imShapeIoU/
 ├─ README.md
 ├─ requirements.txt
 ├─ data.yaml.template
@@ -28,13 +28,15 @@ YOLO11-RepGhost-imMSAM-imShapeIoU/
    └─ results.png
 ```
 
-````markdown
 ## Environment
 
 Please install the required dependencies before running the code:
 
 ```bash
 pip install -r requirements.txt
+```
+
+The code was tested with Python 3.11 and Ultralytics 8.3.49.
 
 ## Dataset
 
@@ -82,17 +84,6 @@ imShapeIoU loss
 ```
 
 The modified Ultralytics source code is included in the `ultralytics/` directory.
-
-Key implementation files include:
-
-```text
-ultralytics/nn/add_modules/imMSAM.py
-ultralytics/nn/add_modules/MSAM.py
-ultralytics/nn/add_modules/repghost_100.bin
-ultralytics/nn/tasks.py
-ultralytics/utils/loss.py
-ultralytics/utils/metrics.py
-```
 
 ## Training
 
@@ -151,8 +142,6 @@ Main validation results:
 mAP@0.5 = 0.939
 mAP@0.5:0.95 = 0.826
 ```
-
-Per-class validation results are also included in `results/res.txt`.
 
 The training and validation metric records are provided in:
 
